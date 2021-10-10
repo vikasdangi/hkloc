@@ -1,0 +1,59 @@
+hi:
+  dates:
+    #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+    short_date_no_year: "MMM D"
+    #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+    short_date: "MMM D, YYYY"
+    #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+    long_date: "MMMM D, YYYY h:mma"
+  datetime_formats:
+    formats:
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      short: "%m-%d-%Y"
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      short_no_year: "%B %-d"
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      date_only: "%B %-d, %Y"
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      long: "%B %-d, %Y, %l:%M%P"
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      no_day: "%B %Y"
+      #Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
+      calendar_ics: "%Y%m%dT%H%M%SZ"
+  date:
+    #Do not remove the brackets and commas and do not translate the first month name. It should be "null".
+    month_names:
+      - null
+      - जनवरी
+      - फरवरी
+      - मार्च
+      - अप्रैल
+      - मई
+      - जून
+      - जुलाई
+      - अगस्त
+      - सितंबर
+      - अक्टूबर
+      - नवंबर
+      - दिसंबर
+  time:
+    am: "पूर्वाह्न"
+    pm: "अपराह्न"
+  title: "चर्चा"
+  topics: "टॉपिक्स"
+  posts: "पोस्ट"
+  views: "देखें "
+  loading: "लोडिंग"
+  powered_by_html: '<a href="https://www.discourse.org">Discourse</a> द्वारा संचालित, JavaScript चालू होने पर बेहतर अनुभव।'
+  sign_up: "साइन अप"
+  log_in: "लॉग इन"
+  submit: "जमा करें"
+  purge_reason: "परित्यक्त, निष्क्रिय खाते के रूप में स्वचालित रूप से हटा दिया गया"
+  disable_remote_images_download_reason: "पर्याप्त डिस्क स्थान उपलब्ध नहीं होने के कारण दूरस्थ छवियों का डाउनलोड अक्षम कर दिया गया था।"
+  anonymous: "अनाम"
+  remove_posts_deleted_by_author: "लेखक द्वारा मिटाया गया"
+  redirect_warning: "हम यह सत्यापित करने में असमर्थ थे कि आपके द्वारा चयनित लिंक वास्तव में फ़ोरम पर पोस्ट किया गया था। यदि आप फिर भी आगे बढ़ना चाहते हैं, तो नीचे दिए गए लिंक का चयन करें।"
+  on_another_topic: "किसी अन्य विषय पर"
+  inline_oneboxer:
+    topic_page_title_post_number: "#%{post_number}"
+    topic_page_title_post_number_by_user: "# %{post_number} %{username} द्वारा"
