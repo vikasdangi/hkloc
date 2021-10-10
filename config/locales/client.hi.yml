@@ -1,0 +1,152 @@
+hi:
+  js:
+    number:
+      format:
+        #symbol used to separate the integer part from the fractional part of a number
+        separator: "।"
+        #symbol for the thousands separator used in digit grouping
+        delimiter: ","
+      human:
+        storage_units:
+          format: "%n %u"
+          units:
+            byte:
+              one: बाइट
+              other: बाइट्स
+            gb: जीबी
+            kb: केबी
+            mb: एमबी
+            tb: टीबी
+      short:
+        thousands: "%{number}k"
+        millions: "%{number}M"
+    dates:
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      time: "HH: mm"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      time_with_zone: "hh:mm a (z)"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      time_short_day: "ddd, HH:mm"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      timeline_date: "MMM YYYY"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      long_no_year: "MMM D, h:mm a"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      long_no_year_no_time: "D MMM"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      full_no_year_no_time: "MMMM करें"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      long_with_year: "D MMM YYYY HH:mm"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      long_with_year_no_time: "D MMM YYYY"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      full_with_year_no_time: "D MMMM YYYY"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      long_date_with_year: "D MMM 'YY LT"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      long_date_without_year: "D MMM LT"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      long_date_with_year_without_time: "D MMM 'YY"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      long_date_without_year_with_linebreak: "D MMM <br/> LT"
+      #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+      long_date_with_year_with_linebreak: "D MMM 'YY <br/> LT"
+      wrap_ago: "%{date} पूर्व"
+      wrap_on: "%{date} को"
+      tiny:
+        half_a_minute: "< 1m"
+        less_than_x_seconds:
+          one: "&lt;%{count}s"
+          other: "< %{count}s"
+        x_seconds:
+          one: "%{count}s"
+          other: "%{count}s"
+        less_than_x_minutes:
+          one: "&lt;%{count}m"
+          other: "< %{count}m"
+        x_minutes:
+          one: "%{count}m"
+          other: "%{count}m"
+        about_x_hours:
+          one: "%{count}h"
+          other: "%{count}h"
+        x_days:
+          one: "%{count}d"
+          other: "%{count}d"
+        x_months:
+          one: "%{count}mon"
+          other: "%{count}mon"
+        about_x_years:
+          one: "%{count}y"
+          other: "%{count}y"
+        over_x_years:
+          one: "&gt; %{count}y"
+          other: "> %{count}y"
+        almost_x_years:
+          one: "%{count}y"
+          other: "%{count}y"
+        #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+        date_month: "D MMM"
+        #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+        date_year: "MMM 'YY"
+      medium:
+        x_minutes:
+          one: "%{count} मि"
+          other: "%{count} मिनट"
+        x_hours:
+          one: "%{count} घंटा"
+          other: "%{count} घंटे"
+        x_days:
+          one: "%{count} दिन"
+          other: "%{count} दिन"
+        #Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
+        date_year: "D MMM 'YY"
+      medium_with_ago:
+        x_minutes:
+          one: "%{count} मिनट पहले"
+          other: "%{count} मिनट पहले"
+        x_hours:
+          one: "%{count} घंटे पहले"
+          other: "%{count} घंटे पहले"
+        x_days:
+          one: "%{count} दिन पहले"
+          other: "%{count} दिन पहले"
+        x_months:
+          one: "%{count} महीने पहले"
+          other: "%{count} महीने पहले"
+        x_years:
+          one: "%{count} साल पहले"
+          other: "%{count} साल पहले"
+      later:
+        x_days:
+          one: "%{count} दिन बाद"
+          other: "%{count} दिन बाद"
+        x_months:
+          one: "%{count} महीने बाद"
+          other: "%{count} महीने बाद"
+        x_years:
+          one: "%{count} वर्ष बाद"
+          other: "%{count} साल बाद"
+      previous_month: "पिछला महिना"
+      next_month: "अगला महीना"
+      placeholder: दिनांक
+      from_placeholder: "दिनांक से"
+      to_placeholder: "तारीख तक"
+    share:
+      topic_html: 'टॉपिक: <span class="topic-title">%{topicTitle}</span>'
+      post: "पोस्ट #%{postNumber}"
+      close: "बंद"
+      twitter: "ट्विटर पर साझा करें"
+      facebook: "फेसबुक पर सांझा करें"
+      email: "ईमेल के माध्यम से भेजें"
+      url: "URL को कॉपी और शेयर करें"
+    action_codes:
+      public_topic: "इस टॉपिक को सार्वजनिक किया %{when}"
+      private_topic: "इस टॉपिक को एक व्यक्तिगत संदेश बना दिया %{when}"
+      split_topic: "टॉपिक को विभाजित किया %{when}"
+      invited_user: "आमंत्रित %{who} %{when}"
+      invited_group: "आमंत्रित %{who} %{when}"
+      user_left: "%{when} को %{who}ने खुद को इस संदेश से हटा लिया है"
+      removed_user: "हटाया%{who}%{when}"
+      removed_group: "हटाया %{who}%{when}"
+      autobumped: "स्वचालित उठा %{when}"
